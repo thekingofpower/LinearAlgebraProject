@@ -55,8 +55,8 @@ class LinearAlgebraProject:
 
         print(f'The dimension of the image_np is {image0_np.shape}')
 
-        #plt.imshow(image0)
-        #plt.show()
+        plt.imshow(image0)
+        plt.show()
 
         #TRANSFORMATION 1
         t1 = np.array([
@@ -69,8 +69,8 @@ class LinearAlgebraProject:
         # convert a numpy array to image
         image1 = Image.fromarray(image1_np)
 
-        #plt.imshow(image1)
-        #plt.show()
+        plt.imshow(image1)
+        plt.show()
         
         #TRANSFORMATION 2
         t2 = np.array([
@@ -83,8 +83,8 @@ class LinearAlgebraProject:
         # convert a numpy array to image
         image2 = Image.fromarray(image2_np)
 
-        #plt.imshow(image2)
-        #plt.show()
+        plt.imshow(image2)
+        plt.show()
 
         #TRANSFORMATION 3
         t3 = np.array([
@@ -97,8 +97,8 @@ class LinearAlgebraProject:
         # convert a numpy array to image
         image3 = Image.fromarray(image3_np)
 
-        #plt.imshow(image3)
-        #plt.show()
+        plt.imshow(image3)
+        plt.show()
 
         #TRANSFORMATION 4
         t = np.array([
@@ -111,8 +111,8 @@ class LinearAlgebraProject:
         # convert a numpy array to image
         image1 = Image.fromarray(image1_np)
 
-        #plt.imshow(image1)
-        #plt.show()
+        plt.imshow(image1)
+        plt.show()
 
         #TRANSFORMATION 5
         t_inv = np.array([
@@ -125,8 +125,8 @@ class LinearAlgebraProject:
         # convert a numpy array to image
         image3 = Image.fromarray(image3_np)
 
-        #plt.imshow(image3)
-        #plt.show()
+        plt.imshow(image3)
+        plt.show()
 
         #TRANSFORMATION 6
         ft = np.array([
